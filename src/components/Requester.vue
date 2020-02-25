@@ -390,6 +390,8 @@ export default {
       
       const returnedData = await this.osb.buyData(this.buying_data.reserved_data_id, this.buying_data.buyer_private_key)
       this.response += '\n' + JSON.stringify(returnedData)
+      
+      const acquiredData = await this.osb.requestData(this.buying_data.reserved_data_id, returnedData.dataBuyHistoryInfo.buy_id, this.buying_data.buyer_private_key)
     },
     onReset_2(evt) {
       evt.preventDefault()
