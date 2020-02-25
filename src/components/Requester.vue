@@ -308,7 +308,7 @@ export default {
       config: {
         blockchain_access_point: 'http://172.16.1.12:8888',
         blockchain_chain_id: '201414dff180ea57066f6e7baf27f178ad6cc3f22d52506c34227bf188033d86',
-        data_trade_contract_account_name: 'datatrader21',
+        data_trade_contract_account_name: 'datatrader23',
         user_account_name: 'alice1111111',
         user_account_private_key: '5JA9CDA7Pg6ovEz3hQTBXQ6xWTcAmcEmGU6RY6yDaKEp6bnTtkN',
       },
